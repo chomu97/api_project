@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name = "myapi", # 이 이름으로 패키지가 설치된다.
-    version = 0.0.1,
+    version = "0.0.1",
     description = "my api lib",
     url = "https://github.com/chomu97/api_project.git",
     author = "chomu97",
