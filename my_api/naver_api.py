@@ -11,7 +11,7 @@ def search_api(url: str,client_id: str,client_secret: str,params: str):
         result = None
     return result
 
-def translate_api(text,url,client_id,client_secret,source="ko",target="en"):
+def translate_api(text: str,url: str,client_id: str,client_secret: str,source: str="ko",target: str="en"):
     headers =  {
     "X-Naver-Client-Id" : client_id,
     "X-Naver-Client-Secret" : client_secret
